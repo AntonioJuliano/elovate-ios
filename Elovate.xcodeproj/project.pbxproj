@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		473576C31C7AB0870064470D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473576C21C7AB0870064470D /* AppDelegate.swift */; };
+		473576C51C7AB0870064470D /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473576C41C7AB0870064470D /* RootViewController.swift */; };
+		473576C71C7AB0870064470D /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473576C61C7AB0870064470D /* DataViewController.swift */; };
+		473576C91C7AB0870064470D /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473576C81C7AB0870064470D /* ModelController.swift */; };
+		473576CC1C7AB0870064470D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473576CA1C7AB0870064470D /* Main.storyboard */; };
+		473576CE1C7AB0870064470D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 473576CD1C7AB0870064470D /* Assets.xcassets */; };
+		473576D11C7AB0870064470D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473576CF1C7AB0870064470D /* LaunchScreen.storyboard */; };
+		473576DC1C7AB0870064470D /* ElovateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473576DB1C7AB0870064470D /* ElovateTests.swift */; };
+		473576E71C7AB0870064470D /* ElovateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473576E61C7AB0870064470D /* ElovateUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		473576D81C7AB0870064470D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473576B71C7AB0870064470D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 473576BE1C7AB0870064470D;
+			remoteInfo = Elovate;
+		};
+		473576E31C7AB0870064470D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 473576B71C7AB0870064470D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 473576BE1C7AB0870064470D;
+			remoteInfo = Elovate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		473576BF1C7AB0870064470D /* Elovate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elovate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		473576C21C7AB0870064470D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		473576C41C7AB0870064470D /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		473576C61C7AB0870064470D /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		473576C81C7AB0870064470D /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		473576CB1C7AB0870064470D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		473576CD1C7AB0870064470D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		473576D01C7AB0870064470D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		473576D21C7AB0870064470D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		473576D71C7AB0870064470D /* ElovateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElovateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		473576DB1C7AB0870064470D /* ElovateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElovateTests.swift; sourceTree = "<group>"; };
+		473576DD1C7AB0870064470D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		473576E21C7AB0870064470D /* ElovateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElovateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		473576E61C7AB0870064470D /* ElovateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElovateUITests.swift; sourceTree = "<group>"; };
+		473576E81C7AB0870064470D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		473576BC1C7AB0870064470D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473576D41C7AB0870064470D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473576DF1C7AB0870064470D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		473576B61C7AB0870064470D = {
+			isa = PBXGroup;
+			children = (
+				473576C11C7AB0870064470D /* Elovate */,
+				473576DA1C7AB0870064470D /* ElovateTests */,
+				473576E51C7AB0870064470D /* ElovateUITests */,
+				473576C01C7AB0870064470D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		473576C01C7AB0870064470D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				473576BF1C7AB0870064470D /* Elovate.app */,
+				473576D71C7AB0870064470D /* ElovateTests.xctest */,
+				473576E21C7AB0870064470D /* ElovateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		473576C11C7AB0870064470D /* Elovate */ = {
+			isa = PBXGroup;
+			children = (
+				473576C21C7AB0870064470D /* AppDelegate.swift */,
+				473576C41C7AB0870064470D /* RootViewController.swift */,
+				473576C61C7AB0870064470D /* DataViewController.swift */,
+				473576C81C7AB0870064470D /* ModelController.swift */,
+				473576CA1C7AB0870064470D /* Main.storyboard */,
+				473576CD1C7AB0870064470D /* Assets.xcassets */,
+				473576CF1C7AB0870064470D /* LaunchScreen.storyboard */,
+				473576D21C7AB0870064470D /* Info.plist */,
+			);
+			path = Elovate;
+			sourceTree = "<group>";
+		};
+		473576DA1C7AB0870064470D /* ElovateTests */ = {
+			isa = PBXGroup;
+			children = (
+				473576DB1C7AB0870064470D /* ElovateTests.swift */,
+				473576DD1C7AB0870064470D /* Info.plist */,
+			);
+			path = ElovateTests;
+			sourceTree = "<group>";
+		};
+		473576E51C7AB0870064470D /* ElovateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				473576E61C7AB0870064470D /* ElovateUITests.swift */,
+				473576E81C7AB0870064470D /* Info.plist */,
+			);
+			path = ElovateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		473576BE1C7AB0870064470D /* Elovate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 473576EB1C7AB0870064470D /* Build configuration list for PBXNativeTarget "Elovate" */;
+			buildPhases = (
+				473576BB1C7AB0870064470D /* Sources */,
+				473576BC1C7AB0870064470D /* Frameworks */,
+				473576BD1C7AB0870064470D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Elovate;
+			productName = Elovate;
+			productReference = 473576BF1C7AB0870064470D /* Elovate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		473576D61C7AB0870064470D /* ElovateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 473576EE1C7AB0870064470D /* Build configuration list for PBXNativeTarget "ElovateTests" */;
+			buildPhases = (
+				473576D31C7AB0870064470D /* Sources */,
+				473576D41C7AB0870064470D /* Frameworks */,
+				473576D51C7AB0870064470D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				473576D91C7AB0870064470D /* PBXTargetDependency */,
+			);
+			name = ElovateTests;
+			productName = ElovateTests;
+			productReference = 473576D71C7AB0870064470D /* ElovateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		473576E11C7AB0870064470D /* ElovateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 473576F11C7AB0870064470D /* Build configuration list for PBXNativeTarget "ElovateUITests" */;
+			buildPhases = (
+				473576DE1C7AB0870064470D /* Sources */,
+				473576DF1C7AB0870064470D /* Frameworks */,
+				473576E01C7AB0870064470D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				473576E41C7AB0870064470D /* PBXTargetDependency */,
+			);
+			name = ElovateUITests;
+			productName = ElovateUITests;
+			productReference = 473576E21C7AB0870064470D /* ElovateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		473576B71C7AB0870064470D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Elo Labs";
+				TargetAttributes = {
+					473576BE1C7AB0870064470D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					473576D61C7AB0870064470D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 473576BE1C7AB0870064470D;
+					};
+					473576E11C7AB0870064470D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 473576BE1C7AB0870064470D;
+					};
+				};
+			};
+			buildConfigurationList = 473576BA1C7AB0870064470D /* Build configuration list for PBXProject "Elovate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 473576B61C7AB0870064470D;
+			productRefGroup = 473576C01C7AB0870064470D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				473576BE1C7AB0870064470D /* Elovate */,
+				473576D61C7AB0870064470D /* ElovateTests */,
+				473576E11C7AB0870064470D /* ElovateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		473576BD1C7AB0870064470D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473576D11C7AB0870064470D /* LaunchScreen.storyboard in Resources */,
+				473576CE1C7AB0870064470D /* Assets.xcassets in Resources */,
+				473576CC1C7AB0870064470D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473576D51C7AB0870064470D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473576E01C7AB0870064470D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		473576BB1C7AB0870064470D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473576C51C7AB0870064470D /* RootViewController.swift in Sources */,
+				473576C91C7AB0870064470D /* ModelController.swift in Sources */,
+				473576C71C7AB0870064470D /* DataViewController.swift in Sources */,
+				473576C31C7AB0870064470D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473576D31C7AB0870064470D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473576DC1C7AB0870064470D /* ElovateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473576DE1C7AB0870064470D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473576E71C7AB0870064470D /* ElovateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		473576D91C7AB0870064470D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 473576BE1C7AB0870064470D /* Elovate */;
+			targetProxy = 473576D81C7AB0870064470D /* PBXContainerItemProxy */;
+		};
+		473576E41C7AB0870064470D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 473576BE1C7AB0870064470D /* Elovate */;
+			targetProxy = 473576E31C7AB0870064470D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		473576CA1C7AB0870064470D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				473576CB1C7AB0870064470D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		473576CF1C7AB0870064470D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				473576D01C7AB0870064470D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		473576E91C7AB0870064470D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		473576EA1C7AB0870064470D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		473576EC1C7AB0870064470D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Elovate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = elo.Elovate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		473576ED1C7AB0870064470D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Elovate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = elo.Elovate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		473576EF1C7AB0870064470D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElovateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = elo.ElovateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elovate.app/Elovate";
+			};
+			name = Debug;
+		};
+		473576F01C7AB0870064470D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElovateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = elo.ElovateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elovate.app/Elovate";
+			};
+			name = Release;
+		};
+		473576F21C7AB0870064470D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElovateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = elo.ElovateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Elovate;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		473576F31C7AB0870064470D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ElovateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = elo.ElovateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Elovate;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		473576BA1C7AB0870064470D /* Build configuration list for PBXProject "Elovate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				473576E91C7AB0870064470D /* Debug */,
+				473576EA1C7AB0870064470D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		473576EB1C7AB0870064470D /* Build configuration list for PBXNativeTarget "Elovate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				473576EC1C7AB0870064470D /* Debug */,
+				473576ED1C7AB0870064470D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		473576EE1C7AB0870064470D /* Build configuration list for PBXNativeTarget "ElovateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				473576EF1C7AB0870064470D /* Debug */,
+				473576F01C7AB0870064470D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		473576F11C7AB0870064470D /* Build configuration list for PBXNativeTarget "ElovateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				473576F21C7AB0870064470D /* Debug */,
+				473576F31C7AB0870064470D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 473576B71C7AB0870064470D /* Project object */;
+}
